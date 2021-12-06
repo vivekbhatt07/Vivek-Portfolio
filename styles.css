@@ -36,3 +36,11 @@ body {
 hr{
     margin : 2rem 0rem;
 }
+
+.non-bullet{
+    list-style : none;
+}
+
+.item-inline{
+    display : inline;
+}
