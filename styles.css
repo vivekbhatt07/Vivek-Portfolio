@@ -121,5 +121,9 @@ hr {
     
 }
 .footer{
-    background-color:
+    background-color: var(--gray-color);
+    padding:1rem 0rem;
+    color:white;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
 }
