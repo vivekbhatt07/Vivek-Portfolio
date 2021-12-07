@@ -126,4 +126,8 @@ hr {
     color:white;
     border-bottom-right-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
+    font-size: large;
+}
+.pad{
+    padding: 0rem 0rem 1rem 0rem;
 }
