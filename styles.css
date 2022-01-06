@@ -132,3 +132,8 @@ hr {
 .pad{
     padding: 0rem 0rem 1rem 0rem;
 }
+#btn-change{
+    color:white;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+}
