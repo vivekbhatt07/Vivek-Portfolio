@@ -1,82 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Web Dev</title>
-    <link href="styles.css" rel="stylesheet">
-</head>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
 
-<body>
-    <nav class="navigation container ">
-        <div class="nav-brand "> DEV... </div>
-        <ul class="non-bullet nav-pills">
-            <li class="item-inline"><a class="link link-active" href="/">Home</a></li>
-            <li class="item-inline"><a class="link " href="/projects.html">Projects</a></li>
-            <li class="item-inline"><a class="link " href="/blogs.html">Blogs</a></li>
-        </ul>
+  <body>
+    <nav class="navigation container">
+      <div class="nav-brand">DEV...</div>
+      <ul class="non-bullet nav-pills">
+        <li class="item-inline">
+          <a class="link link-active" href="/">Home</a>
+        </li>
+        <li class="item-inline">
+          <a class="link" href="/projects.html">Projects</a>
+        </li>
+        <li class="item-inline">
+          <a class="link" href="/blogs.html">Blogs</a>
+        </li>
+      </ul>
     </nav>
-    <header class="hero ">
-        <img class="img1" src="images/img1.svg" />
-        <h1 class="hero-heading">Vivek the <span class="heading-invert"><strong class="str">'Web Developer'</strong></span></h1>
+    <header class="hero">
+      <img class="img1" src="images/img1.svg" />
+      <h1 class="hero-heading">
+        Vivek the
+        <span class="heading-invert"
+          ><strong class="str">'Web Developer'</strong></span
+        >
+      </h1>
     </header>
-    
-     <center><button id="btn-change">Click Me</button>
-        <p class="timer">CountDown</p>
-        <button class= "btn-2">START</button>
-        <button class="btn-3">STOP</button>
+    <center>
+      <button class="current-btn">BTN-1</button>
+      <button class="current-btn">BTN-2</button>
+      <button class="current-btn">BTN-3</button>
     </center>
-     
-
-
+    <div class="model display">
+      <button class="close-btn">&times;</button>
+      <h1 class="align">Modal</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At cum,
+        excepturi maxime quos, dolor necessitatibus error obcaecati consequatur
+        rerum consectetur exercitationem ipsa nisi sed libero? Doloribus odit
+        adipisci excepturi dolores.
+      </p>
+    </div>
+    <div class="overlay display"></div>
     <section class="section pad">
-        <div class="container container-center">
-            <h1 class = "tech">Technologies</h1>
-            <p>I'm familier with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS and Web Hosting.</p>
-        </div>
-        
-
-
+      <div class="container container-center">
+        <h1 class="tech">Technologies</h1>
+        <p>
+          I'm familier with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS and
+          Web Hosting.
+        </p>
+      </div>
     </section>
     <section class="section ow pad">
-        <div class="container container-center ">
-            <h1>Projects</h1>
-            <p>I like to showcase my work and thus, you can see my projects hosted online. </p>
-            <a class="link primary-link" href="/projects.html">View Projects</a>
-
-        </div>
-
-
-
+      <div class="container container-center">
+        <h1>Projects</h1>
+        <p>
+          I like to showcase my work and thus, you can see my projects hosted
+          online.
+        </p>
+        <a class="link primary-link" href="/projects.html">View Projects</a>
+      </div>
     </section>
     <section class="section pad">
-        <div class="container container-center">
-            <h1>Blogs</h1>
-            <p>I am also working on somw technical and non technical blogs. I like to document my journey of learning.
-            </p>
-            <a class="link primary-link" href="blogs.html">Read Blogs</a>
-        </div>
+      <div class="container container-center">
+        <h1>Blogs</h1>
+        <p>
+          I am also working on some technical and non technical blogs. I like to
+          document my journey of learning.
+        </p>
+        <a class="link primary-link" href="blogs.html">Read Blogs</a>
+      </div>
     </section>
 
     <footer class="footer">
-        <div class="align">
-            <p>Contact :</p>
-            <ul>
-                <li class=" item-inline"><a class="link foot" href="https://twitter.com/@VivekBh41702897">Twitter</a>
-                </li>
-                <li class="item-inline"><a class="link foot" href="https://github.com/vivekbhatt07">Git Hub</a> </li>
-                <li class="item-inline"><a class="link foot " href="https://www.linkedin/VivekBhatt">Linked In</a></li>
-
-
-            </ul>
-        </div>
-
+      <div class="align">
+        <p>Contact :</p>
+        <ul>
+          <li class="item-inline">
+            <a class="link foot" href="https://twitter.com/@VivekBh41702897"
+              >Twitter</a
+            >
+          </li>
+          <li class="item-inline">
+            <a class="link foot" href="https://github.com/vivekbhatt07"
+              >Git Hub</a
+            >
+          </li>
+          <li class="item-inline">
+            <a class="link foot" href="https://www.linkedin/VivekBhatt"
+              >Linked In</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
-    <script src="index.js">    </script>
-
-
-</body>
-
+    <script src="index.js"></script>
+  </body>
 </html>
